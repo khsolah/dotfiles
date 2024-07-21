@@ -1,0 +1,18 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.8
+decorations = "Transparent"
+padding = { x = 0, y = 25 }
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "ComicShannsMono Nerd Font Mono"
+style = "Bold"
+
+[font.normal]
+family = "ComicShannsMono Nerd Font Mono"
+style = "Regular"
