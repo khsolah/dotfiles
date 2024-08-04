@@ -53,8 +53,3 @@ keymap.set("n", "sv", ":vsplit<Return>", opts)
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
-
--- Plugins keymaps
--- buffer line
-keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { desc = "Next tab" })
-keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", { desc = "Prev tab" })

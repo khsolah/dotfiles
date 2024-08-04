@@ -36,7 +36,7 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir" -- set directory where un
 vim.opt.undofile = true -- save undo history to a file
 
 -- vim.opt.hlsearch = true
-vim.opt.hlsearch = false -- do not highlight all matches on previous search pattern
+vim.opt.hlsearch = true -- do not highlight all matches on previous search pattern
 vim.opt.incsearch = true -- incrementally highlight searches as you type
 
 vim.opt.termguicolors = true -- enable true color support
@@ -83,7 +83,7 @@ vim.opt.updatetime = 50 -- Time in milliseconds to wait before triggering the pl
 
 -- javascript formatting
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
-  pattern = { "*.js", "*.html", "*.css", "*.lua" },
+  pattern = { "*.js", "*.html", "*.css", "*.lua", "*.scss", "*.ts", "*.vue", "*.md" },
   callback = function()
     vim.opt.tabstop = 2
     vim.opt.softtabstop = 2

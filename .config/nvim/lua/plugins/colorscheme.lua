@@ -1,6 +1,6 @@
 return {
-  "rebelot/kanagawa.nvim",
+  "dracula/vim",
   config = function()
-    vim.cmd.colorscheme("kanagawa")
+    vim.cmd.colorscheme("dracula")
   end,
 }
