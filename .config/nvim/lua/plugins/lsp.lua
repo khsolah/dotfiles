@@ -18,7 +18,7 @@ return {
           "jsonls",
           "marksman",
           "solidity",
-          "tsserver",
+          "ts_ls",
           "unocss",
           "volar",
           "vuels",
@@ -38,7 +38,7 @@ return {
       lspconfig.jsonls.setup({})
       lspconfig.marksman.setup({})
       lspconfig.solidity.setup({})
-      lspconfig.tsserver.setup({})
+      lspconfig.ts_ls.setup({})
       lspconfig.unocss.setup({})
       lspconfig.volar.setup({
         filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue", "json" },
