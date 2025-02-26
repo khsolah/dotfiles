@@ -25,6 +25,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.editor.harpoon2" },
     { import = "lazyvim.plugins.extras.editor.inc-rename" },
     { import = "lazyvim.plugins.extras.editor.mini-move" },
+    { import = "lazyvim.plugins.extras.editor.mini-files" },
     { import = "lazyvim.plugins.extras.editor.outline" },
     -- { import = "lazyvim.plugins.extras.editor.overseer" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
@@ -43,9 +44,10 @@ require("lazy").setup({
     lazy = false,
     -- It's recommended to leave version=false for now, since a lot the plugin that support versioning,
     -- have outdated releases, which may break your Neovim install.
-    -- version = false, -- always use the latest git commit
-    version = "*", -- try installing the latest stable version for plugins that support semver
+    version = false, -- always use the latest git commit
+    -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
+  install = {},
   checker = {
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
