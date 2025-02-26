@@ -36,6 +36,8 @@ keybinds {
         bind "w" { ToggleFloatingPanes; SwitchToMode "Normal"; }
         bind "e" { TogglePaneEmbedOrFloating; SwitchToMode "Normal"; }
         bind "c" { SwitchToMode "RenamePane"; PaneNameInput 0;}
+        bind "Alt [" { PreviousSwapLayout; }
+        bind "Alt ]" { NextSwapLayout; }
     }
     move {
         bind "Ctrl h" { SwitchToMode "Normal"; }
@@ -280,6 +282,7 @@ plugins {
 // Default: default
 //
 // theme "default"
+theme "iceberg-dark"
 
 // The name of the default layout to load on startup
 // Default: "default"
