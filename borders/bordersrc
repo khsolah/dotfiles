@@ -4,8 +4,8 @@ options=(
     style=round
     width=6.0
     hidpi=on
-    active_color=0xFFC099FF
-    inactive_color=0xFF444A73
+    active_color=0xFFFF76CE
+    inactive_color=0xFFA1E3F9
 )
 # active_color=0xFFC099FF inactive_color=0xFF444A73 width=5.0 &
 borders "${options[@]}"
