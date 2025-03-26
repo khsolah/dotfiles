@@ -25,6 +25,9 @@ keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 -- Paste in visual mode without yanking replaced text
 keymap.set("x", "p", [["_dP]])
 
+-- Replace selection with paste, without yanking the replaced text
+keymap.set("v", "p", '"_dP')
+
 -- move a blocks of text up/down with K/J in visual mode
 keymap.set("v", "K", ":m '<-2<CR>gv=gv", { silent = true })
 keymap.set("v", "J", ":m '>+1<CR>gv=gv", { silent = true })
