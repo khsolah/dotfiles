@@ -2,7 +2,7 @@ return {
   "MeanderingProgrammer/render-markdown.nvim",
   opts = {
     enabled = true,
-    render_modes = true,
+    anti_conceal = { enabled = false },
     checkbox = {
       unchecked = {
         -- scope_highlight = "@markup.list.unchecked",
